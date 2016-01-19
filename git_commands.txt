@@ -2,5 +2,20 @@ git init
 git status
 git close
 git log
+git log --graph
+git log -n 1
 git checkout
 git diff
+git diff --staged
+git add
+git commit
+git branch
+git branch <name>
+git branch -b <name> : create new brnach and checking it out
+git branch -d <branch name> : removes the branch (the label only)
+
+git merge master <name of branch to be merged into master>
+git show <commit id> - shows the diff checked in by the commit - reletive to it's parent
+
+git remote
+git remote add origin git@github.com:galyedidia/git-commands.git
